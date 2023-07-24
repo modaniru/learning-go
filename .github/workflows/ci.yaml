@@ -13,7 +13,7 @@ jobs:
           image: postgres:12
           env:
             POSTGRES_USER: postgres
-            POSTGRES_PASSWORD: qwery
+            POSTGRES_PASSWORD: qwerty
             POSTGRES_DB: postgres
           ports:
             - 5433:5432
