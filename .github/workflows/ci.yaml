@@ -35,6 +35,6 @@ jobs:
       - name: migrations
         run: make migrateUp
       - name: Build
-        run: go build -v .
+        run: go build -v ./src/
       - name: Test
         run: make test
